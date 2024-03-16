@@ -127,4 +127,8 @@ h1, h2 {
     transform:translate(0,0);
 }
 
+li {
+  margin-bottom:0.25rem;
+}
+
   }
