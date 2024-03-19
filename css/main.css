@@ -47,7 +47,7 @@
     font-family: "input-mono", monospace;
 font-weight: 500;
 font-style: normal;
-font-size:24px;
+font-size:21px;
   }
 
 
@@ -85,14 +85,37 @@ font-size:24px;
   }
 
   #main {
-    position:absolute;
-    top:50%;
-    left:50%;
     width:100%;
-    max-width:1000px;
-    transform:translate(-50%,-50%)
+    /* max-width:1000px; */
+    
 
   }
+
+  table {
+    width:100%;
+    border-top:1px solid #000;
+    
+    margin:10vh 0;
+  }
+
+  td {
+    padding:0.5em;
+    border-bottom:1px solid #000;
+    height:10vh;
+    transition:text-indent 0.2s;
+    
+  }
+
+tr:hover td {
+  color:rgb(244, 46, 46);
+  background:#000;
+  text-indent:1em;
+}
+
+tr:hover a {
+  color:rgb(244, 46, 46);
+  
+}
 
   ol {
     list-style-type: none;
